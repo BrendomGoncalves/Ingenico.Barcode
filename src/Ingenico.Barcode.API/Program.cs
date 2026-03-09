@@ -29,8 +29,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-
-
 app.UseHealthChecks("/health");
 app.UseHttpsRedirection();
 
